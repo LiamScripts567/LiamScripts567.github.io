@@ -1,0 +1,24 @@
+local g = getgenv()
+if g["files+"] then
+	return
+end
+g._listfiles = listfiles
+function g.listfolders(b)
+	local a = {}
+	for i, v in next, _listfiles(b) do
+		if v:find("/") then
+			table.insert(a, v)
+		end
+	end
+	return a
+end
+function g.listfiles(b)
+	local a = {}
+	for i, v in next, _listfiles(b) do
+		if not v:find("/") then
+			table.insert(a, v)
+		end
+	end
+	return a
+end
+g["files+"] = true
