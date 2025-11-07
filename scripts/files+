@@ -1,4 +1,4 @@
-local g = getsenv()
+local g = getgenv()
 if g["files+"] then
 	return
 end
