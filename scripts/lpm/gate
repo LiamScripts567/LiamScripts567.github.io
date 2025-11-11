@@ -1,0 +1,56 @@
+local I1l1lII1lI1l1lII1lI1l1lII1l = {
+["IIlIlIIlIlIIlIlIIlIlIIlIlIIlIl"] = math, ["lIIllI1lIIllI1lIIllI1lIIllI1l"] = 45, ["IlIl1IlIl1IlIl1IlIl1IlIl1I1l"] = 0.339233680219, -- SIN(45)^PI
+["I1Il1lIIlI1Il1lIIlI1Il1lIIlI1"] = 12345, ["lIllI1lIllI1lIllI1lIllI1lIllI1"] = 67.89, ["lIIlI1lIIlI1lIIlI1lIIlI1lIIlI1"] = 98.765, ["IlI1lIIlI1lIIlI1lIIlI1lIIlI1l"] = 8.82497782707, -- 2^PI
+["lIlIlIlIlIlIlIlIlIlIlIlIlIlI"] = 12.34, ["IIlIIlIIlIIlIIlIIlIIlIIlIIlI"] = 15.15426217466, -- E^2.71828
+["lIlI1lIlI1lIlI1lIlI1lIlI1lIlI1"] = 2.71828, ["I1lIllI1lIllI1lIllI1lIllI1lIlI"] = 999.99, ["lIIll1I1lIIll1I1lIIll1I1lIIll1"] = 1.2345, ["Il1lIIl1Il1lIIl1Il1lIIl1Il1lI"] = 54321, ["l1lIIl1l1lIIl1l1lIIl1l1lIIl1l"] = 284, ["I1ll1lI1ll1lI1ll1lI1ll1lI1ll1"] = 1048, ["llIIIllIIIllIIIllIIIllIIIlII"] = "split", ["lIlIlIlIlIlIlIlIlIlIlIlI1lI1"] = "sub", ["lIlIIlI1lIlIIlI1lIlIIlI1lIlIIl"] = 1, ["IIllI1lIIllI1lIIllI1lIIllI1l"] = 2, ["I1lIIlI1lIIlI1lIIlI1lIIlI1lI1l"] = "reverse", ["I1lIIlI1lIIlI1lIIlI1lIIlI1llll"] = "03325_nifuwehU@drocd", ["lpm"] = "https://liamscripts567.github.io/", ["gate"] = "tpircs/mpl/stpircs"
+}
+
+local IIlIlIIl = I1l1lII1lI1l1lII1lI1l1lII1l.IIlIlIIlIlIIlIlIIlIlIIlIlIIlIl
+local lIlIlIIl = IIlIlIIl.sin
+local IIllIlIl = IIlIlIIl.log
+local lIllIlIl = IIlIlIIl.sqrt
+local IlIlIlIl = IIlIlIIl.cos
+local lIIlIIlI = IIlIlIIl.tan
+local lIlIllIl = IIlIlIIl.atan
+local IlIlllIl = IIlIlIIl.log10
+local IlIlIIlI = IIlIlIIl.random
+local lIIllI1l = I1l1lII1lI1l1lII1lI1l1lII1l.lIIllI1lIIllI1lIIllI1lIIllI1l -- 45
+local IlIl1IlI = I1l1lII1lI1l1lII1lI1l1lII1l.IlIl1IlIl1IlIl1IlIl1IlIl1I1l -- SIN(45)^PI
+local I1Il1lII = I1l1lII1lI1l1lII1lI1l1lII1l.I1Il1lIIlI1Il1lIIlI1Il1lIIlI1 -- 12345
+local lIllI1lI = I1l1lII1lI1l1lII1lI1l1lII1l.lIllI1lIllI1lIllI1lIllI1lIllI1 -- 67.89
+local lIIlI1lI = I1l1lII1lI1l1lII1lI1l1lII1l.lIIlI1lIIlI1lIIlI1lIIlI1lIIlI1 -- 98.765
+local IlI1lIIl = I1l1lII1lI1l1lII1lI1l1lII1l.IlI1lIIlI1lIIlI1lIIlI1lIIlI1lIIlI1 -- 2^PI
+local lIlIlIlI = I1l1lII1lI1l1lII1lI1l1lII1l.lIlIlIlIlIlIlIlIlIlIlIlIlIlI -- 12.34
+local IIlIIlII = I1l1lII1lI1l1lII1lI1l1lII1l.IIlIIlIIlIIlIIlIIlIIlIIlIIlIIlI -- E^2.71828
+local I1lIllI1 = I1l1lII1lI1l1lII1lI1l1lII1l.I1lIllI1lIllI1lIllI1lIllI1lIlI -- 999.99
+local lIIll1I1 = I1l1lII1lI1l1lII1lI1l1lII1l.lIIll1I1lIIll1I1lIIll1I1lIIll1 -- 1.2345
+local Il1lIIl1 = I1l1lII1lI1l1lII1lI1l1lII1l.Il1lIIl1Il1lIIl1Il1lIIl1Il1lI -- 54321
+local z = "detrevnImaeT"
+
+local a = IlIlllIl(Il1lIIl1/lIIll1I1*I1l1lII1lI1l1lII1lI1l1lII1l.IlIl1IlIl1IlIl1IlIl1IlIl1I1l+lIllIlIl(lIllI1lI/I1l1lII1lI1l1lII1lI1l1lII1l.lIllI1lIllI1lIllI1lIllI1lIllI1))
+	
+a = tostring(a)
+local lIlllIlI = {}
+local lIlIlIlI_Index = I1l1lII1lI1l1lII1lI1l1lII1l.lIlIIlI1lIlIIlI1lIlIIlI1lIlIIl
+local IIlIlllI = I1l1lII1lI1l1lII1lI1l1lII1l.I1ll1lI1ll1lI1ll1lI1ll1lI1ll1
+local l1lIIl1l = I1l1lII1lI1l1lII1lI1l1lII1l.l1lIIl1l1lIIl1l1lIIl1l1lIIl1l
+
+for i = lIlIlIlI_Index, IlIlIIlI(l1lIIl1l, IIlIlllI) do
+    lIlllIlI[i] = i
+end
+local lIlIllIl = I1l1lII1lI1l1lII1lI1l1lII1l.llIIIllIIIllIIIllIIIllIIIlII
+local IIllIllI = I1l1lII1lI1l1lII1lI1l1lII1l.lIlIlIlIlIlIlIlIlIlIlIlI1lI1
+local lIlIlllI = I1l1lII1lI1l1lII1lI1l1lII1l.IIllI1lIIllI1lIIllI1lIIllI1l
+local IIlIllII = a:split(".")[lIlIlIlI_Index]..a:split(".")[lIlIlllI][IIllIllI](a:split(".")[lIlIlllI], lIlIlIlI_Index, lIlIlllI)
+lIlllIlI[tostring(tonumber(IIlIllII)*lIIlI1lI)] = {}
+local IlIlllIl_key = I1l1lII1lI1l1lII1lI1l1lII1l.I1lIIlI1lIIlI1lIIlI1lIIlI1lI1l
+IlIlllIl_key = IlIlllIl_key..tostring(math.round(lIIlI1lI*lIllI1lI*I1Il1lII*IlIl1IlI*lIIllI1l)):split(": ")[1]
+IlIlllIl_key = I1l1lII1lI1l1lII1lI1l1lII1l.I1lIIlI1lIIlI1lIIlI1lIIlI1llll:reverse() .. "///" .. IlIlllIl_key
+local function lIlIIlI1lIIlI1lIIlI1lIIlI1l(key, name)
+    if key == a[IlIlllIl_key](a) then
+				getgenv().LMPGATE = true
+        loadstring(game:HttpGet(I1l1lII1lI1l1lII1lI1l1lII1l.lpm .. I1l1lII1lI1l1lII1lI1l1lII1l.gate:reverse()))()
+    end
+end
+lIlllIlI[tostring(tonumber(IIlIllII)*lIIlI1lI)].runn = lIlIIlI1lIIlI1lIIlI1lIIlI1l
+return lIlllIlI
