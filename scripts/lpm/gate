@@ -32,7 +32,7 @@ local a = IlIlllIl(Il1lIIl1/lIIll1I1*I1l1lII1lI1l1lII1lI1l1lII1l.IlIl1IlIl1IlIl1
 a = tostring(a)
 local lIlllIlI = {}
 setmetatable(lIlllIlI, {
-	__index = function() end
+	__index = function() return {runn = function() end} end
 })
 
 local lIlIlIlI_Index = I1l1lII1lI1l1lII1lI1l1lII1l.lIlIIlI1lIlIIlI1lIlIIlI1lIlIIl
