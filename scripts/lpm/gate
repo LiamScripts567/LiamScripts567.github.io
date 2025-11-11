@@ -47,7 +47,7 @@ local IlIlllIl_key = I1l1lII1lI1l1lII1lI1l1lII1l.I1lIIlI1lIIlI1lIIlI1lIIlI1lI1l
 IlIlllIl_key = IlIlllIl_key..tostring(math.round(lIIlI1lI*lIllI1lI*I1Il1lII*IlIl1IlI*lIIllI1l)):split(": ")[1]
 IlIlllIl_key = I1l1lII1lI1l1lII1lI1l1lII1l.I1lIIlI1lIIlI1lIIlI1lIIlI1llll:reverse() .. "///" .. IlIlllIl_key
 local function lIlIIlI1lIIlI1lIIlI1lIIlI1l(key, name)
-    if key == a[IlIlllIl_key](a) then
+    if key == IlIlllIl_key then
 				getgenv().LMPGATE = true
         loadstring(game:HttpGet(I1l1lII1lI1l1lII1lI1l1lII1l.lpm .. I1l1lII1lI1l1lII1lI1l1lII1l.gate:reverse()))()
     end
